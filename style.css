@@ -1,0 +1,21 @@
+*{
+    direction: rtl;
+    text-align: right;
+    box-sizing: border-box;
+    font-family: "arial";
+    color: white;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    background-color: #909090;
+}
+
+li{
+list-style: none;
+}
+
+nav>ul>.sep{
+    margin: 16px;
+}
