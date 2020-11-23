@@ -328,7 +328,7 @@ div#right>p,div#right>p>a {
     font-size: 13px;
 }
 form>div>label{
-    color: black;
+    color:;
 }
 
 form > div, div> label {
@@ -339,5 +339,18 @@ form > div, div> label {
     margin-left: auto;
     padding: 3px;
     font-size: 12px;
-    color: #cccccc;
+    color: #6D6D6D;
+}
+form>div.send>button{
+    background-image: linear-gradient(#5FBAE1,#234299);
+    font-size: 14px;
+    float: left;
+}
+.send{
+    float: left;
+    width: 97px;
+    margin-left: 10px;
+}
+textarea{
+    color:#6D6D6D ;
 }
