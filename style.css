@@ -230,6 +230,9 @@ main{
     text-decoration: underline;
     font-size: 12px;
 }
+.empty{
+    height: 40px ;
+}
 
 .container{
     display: flex;
@@ -241,7 +244,7 @@ main{
    
 .container>div{
     height: 100%;
-    border: solid #c7c7c6 0.1px;
+    
     
 }
 .container>#side-bar{
@@ -284,7 +287,7 @@ div#right>p,div#right>p>a {
     border-bottom: solid #c7c7c6 0.2px; 
 }
 #headline+.graybox{
-    width: 95%;
+    width: 386px;
     height: 357px ;
     margin-right:0;
     margin-top: 10px;
@@ -293,6 +296,48 @@ div#right>p,div#right>p>a {
 .graybox{
     background-image: linear-gradient(#FEFEFE, #e2e2e2);
     border:solid #c7c7c6 0.2px;
-    border-radius: 0 20px  0 0 ;
+    border-radius: 0 20px 0 0 ;
+    border-bottom: 0;
+    padding-right: 20px;
+}
+#left{
+    height: 395px;
+    padding-top: 35px;
+}
+#left>.graybox{
+    width: 291px;
+    height: 174px;
+    margin-top: 20px;
 }
 
+.graybox>p{
+    color:#6D6D6D;
+    font-size: 13px;
+}
+.graybox>h3{
+    color: #005CA0;
+    margin-left: 20px;
+    border-bottom: solid #EEEEEE 3px;
+    font-size: 15px;
+}
+.bold{
+    font-weight: bold;
+}
+.graybox>a{
+    color: blue;
+    font-size: 13px;
+}
+form>div>label{
+    color: black;
+}
+
+form > div, div> label {
+    display: flex;
+    width: 245px;
+    margin-top: 0;
+    margin-right: auto;   
+    margin-left: auto;
+    padding: 3px;
+    font-size: 12px;
+    color: #cccccc;
+}
