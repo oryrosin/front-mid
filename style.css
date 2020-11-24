@@ -126,6 +126,13 @@ header{
 }
 #search-box{
     color: black;
+    border-radius: 0 7px 0 0;
+    border: none;
+    margin-left: 2px;
+    
+}
+.search{
+    
 }
 #eng{ 
     padding-left: 10px;
