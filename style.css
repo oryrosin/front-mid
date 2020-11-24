@@ -128,14 +128,12 @@ header{
     color: black;
     border-radius: 0 7px 0 0;
     border: none;
-    margin-left: 2px;
-    
+    margin-left: 2px;   
 }
-.search{
+
+#english{ 
+    padding: 3px 0 0 10px;
     
-}
-#eng{ 
-    padding-left: 10px;
 }
 
 main{
@@ -362,6 +360,8 @@ form>div.send>button{
     background-image: linear-gradient(#5FBAE1,#234299);
     font-size: 14px;
     float: left;
+    cursor: pointer;
+    border: none;
 }
 .send{
     float: left;
@@ -370,4 +370,11 @@ form>div.send>button{
 }
 textarea{
     color:#6D6D6D ;
+}
+form>div.send>button:hover{
+    background-image: linear-gradient(#f7e43a,#f86706);
+    font-size: 14px;
+    float: left;
+    cursor: pointer;
+    color: black;
 }
